@@ -1,6 +1,6 @@
 # vue-fidget
 
-> A demonstration of how to make a fidget spinner using vuew
+> A demonstration of how to make a fidget spinner using vue
 
 ## Build Setup
 
