@@ -42,8 +42,8 @@ export default {
 
     update: function() {
 
-      this.velocity = this.velocity + this.acceleration - this.friction;
-      if (this.acceleration > 0) {
+      this.velocity = this.velocity + this.acceleration;
+      if (this.acceleration > -1) {
         this.acceleration -= this.friction;
       }
       this.angle += this.velocity;
